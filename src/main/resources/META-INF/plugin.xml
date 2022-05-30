@@ -9,6 +9,7 @@
     <extensions defaultExtensionNs="com.intellij">
         <applicationService serviceImplementation="com.github.galiagacandia.hibernatequeryconsole.services.MyApplicationService"/>
         <projectService serviceImplementation="com.github.galiagacandia.hibernatequeryconsole.services.MyProjectService"/>
+        <toolWindow factoryClass="com.github.galiagacandia.hibernatequeryconsole.toolwindows.MyToolWindowFactory" id="Sample Calendar" secondary="true" anchor="right" />
     </extensions>
 
     <applicationListeners>
